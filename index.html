@@ -3,15 +3,29 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <div><h1>Simple Interest Calculator</h1>
+    <body><center><div id=d1>
+    
+        <h1><b><center>Simple Interest Calculator</center></b></h1>
 
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
-
-        <button onclick="compute()">Compute</button>
-        </div>
-    </body>
+<div>Amount <input type="number"  id="principal"></div>  <br/>
+<div><label for="rate">Rate </label><input type="range"  id="rate" name="rate" min=1 max=50 oninput="this.nextElementSibling.value = this.value"><output>26</output>%</div>  <br/>
+<div id=d2>No. of Years <select id="years" name="years">
+<option value="1">1</option>option>
+<option value="5">5</option>option>
+<option value="10">10</option>option>
+<option value="15">15</option>option>
+<option value="20">20</option>option>
+<option value="25">25</option>option>
+</select></div>
+<div><span id="result"></span>
+</div><br>
+<div><button onclick="compute()">Compute Interest</button></div>
+<div><p>If you deposit <span id="p1"></span>
+,<br>at an interest rate of <span id="r1"></span>
+%,<br>You will receive an amount of <span id="a1"></span>
+<br>in the year <span id="t1"></span>
+</p></div>
+<footer>@Everyone Can Get Rich</footer>
+</div></center>
+</body>
 </html>
