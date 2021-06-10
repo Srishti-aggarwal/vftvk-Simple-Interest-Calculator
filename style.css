@@ -4,7 +4,7 @@ h1{color:grey;
 font: 40px Arial, sans-serif;}
 div{
   text-align:left;
-  padding-left:200px;
+  padding-left:350px;
   margin:0px;
 }
 #d1 {
@@ -13,6 +13,7 @@ div{
   padding: 10px;
   border: 5px solid black;
   margin: 0;
+  width: 800px;
 }
 
 
