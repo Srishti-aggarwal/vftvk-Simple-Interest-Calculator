@@ -1,19 +1,14 @@
-body {background-color:black;
-padding-left:20px;}
+body {background-color:black;font-family:arial;color:white;}
 h1{color:grey;
-font: 40px Arial, sans-serif;}
-div{
-  text-align:left;
-  padding-left:350px;
-  margin:0px;
-}
+font-family: verdana;}
 #d1 {
   background-color:white;
   border-radius: 25px;
-  padding: 10px;
-  border: 5px solid black;
-  margin: 0;
-  width: 800px;
+  height:400px;
+  padding: 20px;
+  color:black;
+  margin:5px;
+  width: 300px;
 }
 
 
